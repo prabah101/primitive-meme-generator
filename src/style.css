@@ -9,7 +9,8 @@ body {
 
 main {
     padding: 36px;
-    max-width: 600px;
+    display: flex;
+    justify-content: center;
 }
 
 .header {
@@ -58,6 +59,9 @@ main {
     color: white;
     border: none;
     cursor: pointer;
+}
+.container{
+    max-width: 600px;
 }
 
 .meme {
